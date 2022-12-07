@@ -92,5 +92,6 @@ if __name__ == '__main__':
         desp = '今天已签到过，try tomorrow'
     WechatSend(title, desp, serverkey)
     sys.exit(0)
+   
 
 
