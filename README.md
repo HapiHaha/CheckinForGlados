@@ -1,5 +1,5 @@
 # CheckinForGlados
-Checkin script for Glados, program with Python, just for purposes. Comments are welcome~
+- Checkin script for Glados, program with Python, just for purposes. Comments are welcome~
 # 为Glados专门写的签到程序
 - 配合操作系统提供的定时运行脚本，实现每日自动签到。
 - 通过server酱，可将签到结果上报至微信，方便确定签到情况。
