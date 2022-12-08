@@ -16,7 +16,7 @@ serverEn：是否启用server酱上报结果，1启用，0关闭。
 '''
 sess = '' # cookie中koa:sess的值
 sig = '' # cookie中koa:sess.sig的值
-cookie = 'koa:sess: {0}, koa:sess.sig: {1}'.format(sess, sig) # 也可直接复制相同格式的cookie 即cookie = '你的cookie'
+cookie = 'koa:sess={0}; koa:sess.sig={1}'.format(sess, sig) # 也可直接复制相同格式的cookie 即cookie = '你的cookie'
 serverkey = '请输入server酱的key'
 serverEn = 1
 def dailyCheckin():
