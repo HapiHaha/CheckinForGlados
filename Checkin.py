@@ -10,7 +10,7 @@ import datetime
 '''
 需要自行更改的变量：
 cookie：登陆glados网页后账号对应的cookie，经两周的测试，同账号对应的cookie不会改变。
-将koa:sess和koa:sess.sig填入sess和sig即可，或者复制json格式的cookie直接赋值给cookie也可。
+将koa:sess和koa:sess.sig填入sess和sig即可，或者复制相同格式的cookie直接赋值给cookie也可。
 serverkey：通过server酱脚本可以将运行结果发到微信上，便于查看。如不需要使用，可将serverEn设为0.
 serverEn：是否启用server酱上报结果，1启用，0关闭。
 '''
